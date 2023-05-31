@@ -1,0 +1,455 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Abril+Fatface&family=Abel&family=Foldit:wght@500&family=Gruppo&family=Macondo&family=Megrim&family=Poiret+One&family=Rubik+Puddles&display=swap');
+
+/* font-family: 'Gruppo', cursive;
+font-family: 'Megrim', cursive;
+font-family: 'Macondo', cursive;
+font-family: 'Foldit', cursive;
+font-family: 'Rubik Puddles', cursive;
+font-family: 'Poiret One', cursive;
+font-family: 'Abel', sans-serif;
+font-family: 'Abril Fatface', cursive;
+font-family: 'Cormorant Garamond', serif;*/
+
+
+body {
+    background-color: rgba(125, 181, 255, 0.479);
+    background-image: url("https://image.freepik.com/free-photo/abstract-blue-and-white-hand-drawn-seamless-ornamental-watercolor-paint-pattern_308835-423.jpg");
+    background-repeat: repeat;
+    background-attachment: fixed;
+    backdrop-filter: blur(6px);
+    font-size: 1.5em;
+}
+
+
+
+
+/* jumbo */
+#jumbotronco {
+    background-image: url("https://a0.muscache.com/im/pictures/miso/Hosting-832299531091400202/original/2ff54eb4-f9de-40fd-9f0e-cf814ed049c5.jpeg?im_w=1440");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    opacity: 80%;
+    text-shadow: 2px 2px 2px black;
+
+}
+
+
+
+
+#tituloTop {
+    font-family: 'Macondo', serif;
+    font-size: 3em;
+    text-shadow: 5px 5px 6px rgb(57, 120, 255);
+
+}
+
+#subtituloTop {
+    color: rgb(0, 0, 0);
+    font-size: 1.3em;
+    font-family: 'Cormorant Garamond', serif;
+    text-shadow: 2px 2px 3px rgb(255, 255, 255);
+    font-weight: bolder;
+}
+
+
+
+
+/* textos delprimer row */
+.lead {
+    color: black;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.2em;
+    text-shadow: 2px 2px 2px white;
+    font-weight: 500;
+}
+
+
+#texto1,
+#texto2,
+#texto3 {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 7px;
+}
+
+
+
+#texto-detalles {
+    background-color: rgba(0, 0, 0, 0.4);
+    color: rgb(255, 255, 255);
+    /* border: 2px solid rgba(54, 151, 230, 1); */
+    padding: 25px;
+    margin: 20px;
+    text-shadow: 2px 2px 2px rgb(57, 120, 255);
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.2em;
+    border-radius: 7px;
+}
+
+
+
+/* palabra marcada en el jumbo */
+.especialjumbo {
+    color: rgb(175, 252, 255);
+    text-shadow: 2px 2px 2px rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+/* matusculas y letras destacadas */
+#mayus {
+    color: rgba(54, 151, 230, 1);
+    font-size: 1.2em;
+    text-shadow: 2px 2px 2px rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+
+
+
+
+/* NAVBAR */
+#row-nav {
+    /* border: 2px solid rgba(0, 56, 177, 0.521); */
+    /* background-color: rgba(0, 0, 0, 0.1); */
+    background: linear-gradient(180deg, rgba(0, 62, 133, 0.7), rgba(255, 255, 255, 0.01));
+}
+
+
+.navbar-brand {
+    text-align: center;
+}
+
+.navbar-brand img {
+    border-radius: 30px;
+    border: 1px dashed white;
+}
+
+.navbar-brand img:hover {
+    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.5);
+    border: 1px dashed rgb(0, 122, 236);
+
+}
+
+.navbar-nav {
+    font-family: 'Macondo', 'Megrim', monospace;
+    font-weight: bold;
+    font-size: 1.2em;
+    height: auto;
+    background: linear-gradient(45deg, rgba(179, 179, 255, 0.6), rgba(54, 151, 230, 0.9));
+    border-radius: 20px;
+}
+
+.navbar-toggler {
+    background-color: rgba(221, 233, 255, 0.7);
+    border-radius: 10px;
+    box-shadow: 0px 3px 3px rgba(0, 107, 168, 0.5);
+    border: 1px dashed white;
+    width: 8em;
+}
+
+.navbar-toggler:hover {
+    background-color: rgba(185, 185, 185, 0.2);
+    box-shadow: 0px 3px 3px rgba(143, 143, 143, 0.5);
+    border: 3px dashed white;
+}
+
+.navbar-toggler:active {
+    background-color: rgba(243, 243, 243, 0.5);
+    box-shadow: 0px 3px 3px rgba(2, 2, 2, 0.5);
+}
+
+.nav-item {
+    text-align: center;
+    margin: 0px 10px 0px 10px;
+    display: flex;
+    /* Agrega flexbox */
+    justify-content: center;
+    /* Alineación horizontal al centro */
+    align-items: center;
+    /* Alineación vertical al centro */
+}
+
+.nav-item:hover {
+    background-color: rgba(255, 255, 255, 0.219);
+    border-radius: 20px;
+}
+
+.nav-item:active {
+    box-shadow: 0px 2px 8px rgb(255, 255, 255);
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+
+.nav-link {
+    color: rgb(0, 98, 190);
+    text-shadow: 2px 2px 3px rgb(255, 255, 255);
+}
+
+.nav-link:hover {
+    color: rgb(47, 121, 170);
+    text-shadow: 2px 2px 3px rgb(255, 255, 255);
+}
+
+
+.nav-link:focus {
+    color: rgb(0, 83, 160);
+}
+
+
+
+
+.featurette-divider {
+    padding-top: 2vw;
+    margin-top: 2vw;
+}
+
+#row-jumbo,
+#row-detalles {
+    background-color: rgba(179, 179, 255, 0.5);
+}
+
+#row-intro,
+#row-footer {
+    background-color: rgba(54, 151, 230, 0.5);
+}
+
+
+
+
+
+
+
+#titulo-form,
+#titulo-anfitrion,
+#titulo-acordeones,
+#titulo-detalles {
+    font-family: 'Macondo', sans-serif;
+    text-shadow: 2px 2px 3px rgb(57, 120, 255);
+    font-size: 1.8em;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+}
+
+
+#titulo-intro,
+#titulo2-feat,
+#titulo3-feat {
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 2px black;
+    font-family: 'Macondo', cursive;
+    font-size: 1.8em;
+}
+
+
+
+
+
+.badge {
+    margin: 15px;
+    border: 1px dashed rgb(255, 255, 255);
+    box-shadow: 2px 2px 5px rgb(255, 255, 255);
+    background-color: rgba(179, 179, 255, 0.7);
+    font-family: 'macondo';
+    font-weight: bold;
+    font-size: 0.8em;
+}
+
+.badge:hover {
+    box-shadow: 2px 2px 5px rgb(0, 59, 126);
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+
+
+
+
+.accordion {
+    /* border: 2px dashed rgba(54, 151, 230, 1); */
+    margin-bottom: 10px;
+}
+
+.accordion-button {
+    background-color: rgba(179, 179, 255, 0.5);
+    font-size: 0.8em;
+    font-family: 'Poiret One', cursive;
+    font-weight: bold;
+}
+
+.accordion-item{background-color: rgba(255, 255, 255, 0.4);}
+
+.accordion-body {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: bold;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: rgba(179, 179, 255, 0.5);
+}
+
+.accordion-button:hover {
+    background-color: rgb(91, 161, 226);
+    color: white
+}
+
+
+
+.card {
+    border: 5px solid rgb(255, 255, 255);
+    box-shadow: 2px 2px 5px rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+.card-title,
+.card-text {
+    font-family: 'Poiret One', serif;
+    font-weight: bold
+}
+
+.card-title {
+    color: rgb(65, 65, 119);
+    text-decoration: underline;
+}
+
+.card-body {
+    background-color: rgba(179, 179, 255, 0.5);
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+/* formulario */
+.container h2 {
+    margin-bottom: 3vw;
+    text-align: center;
+}
+
+.container form {
+    margin: 0 auto;
+    max-width: 600px;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 5px;
+    /* border: 2px dashed rgba(54, 151, 230, 1); */
+
+}
+
+.container form label {
+    color: #ffffff;
+    display: block;
+    /* font-size: 1em; */
+    margin-bottom: 0px;
+    font-family: 'Gruppo', serif;
+}
+
+.container form input[type="text"],
+.container form input[type="email"],
+.container form input[type="date"],
+.container form input[type="number"],
+.container form textarea {
+    width: 100%;
+    padding: 5px;
+    border: 2px solid #b3b3ff;
+    border-radius: 10px;
+    background: transparent;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.container form input[type="submit"],
+.container form input[type="reset"] {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #ffffff;
+    border-radius: 50px;
+    background: transparent;
+    color: #ffffff;
+    cursor: pointer;
+    margin: 5px 1%;
+    transition: background 0.3s ease-in-out, color 0.3s ease-in-out;
+    font-family: 'Gruppo', serif;
+}
+
+.container form input[type="submit"]:hover,
+.container form input[type="reset"]:hover {
+    background: #9e9e9e80;
+}
+
+
+
+.cajabadges {
+    justify-content: space-around;
+    margin-bottom: 3vw;
+    text-align: center;
+}
+
+#row-tituloacordeones,
+#row-anfitrion,
+#row-detalles,
+#row-formulario {
+    padding-top: 4vw;
+}
+
+#row-formulario {
+    padding-bottom: 4vw;
+}
+
+
+
+#row-detalles {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* } d-flex flex-column justify-content-center align-items-center"  */
+
+
+
+
+
+#row-footer {
+    font-size: 0.8em;
+}
+
+#boton-airbnb {
+    border: 2px dashed rgb(255, 255, 255);
+    font-weight: bold;
+    font-family: 'macondo', cursive;
+    text-decoration: none;
+    border-radius: 50px;
+    background-color: rgba(123, 86, 255, 0.15);
+}
+
+
+#boton-airbnb:hover {
+    box-shadow: 2px 2px 5px rgb(141, 9, 0);
+
+}
+
+#boton-airbnb:active {
+    box-shadow: 2px 2px 5px rgb(0, 0, 0);
+    border: 1px dashed rgb(255, 255, 255);
+}
+
+#link-airbnb {
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 3px rgb(20, 12, 133);
+}
+
+
+#texto-btnfooter {
+    color: rgb(141, 9, 0);
+    text-shadow: 1px 1px 3px white;
+}
+
+#navbarsExample05 {
+    overflow: auto;
+  }
